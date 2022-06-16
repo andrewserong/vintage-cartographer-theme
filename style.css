@@ -1,0 +1,35 @@
+/*
+Theme Name: Vintage Cartographer
+Theme URI: https://github.com/andrewserong/vintage-cartographer-theme
+Author: Andrew Serong
+Description: A blogging theme inspired by early 20th century maps.
+Requires at least: 6.0
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: vintage-cartogrpaher
+
+Vintage Cartographer theme is distributed under the terms of the GNU GPL
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Block styles */
+.wp-block-image.is-style-thick-border {
+    border: 4px solid var(--wp--preset--color--foreground);
+    padding: 1em;
+}
+
+.wp-block-image.is-style-double-border {
+    border: 4px solid var(--wp--preset--color--foreground);
+    padding: 4px;
+}
+
+.wp-block-image.is-style-double-border img {
+    border: 1px solid var(--wp--preset--color--foreground);
+    padding: 0.5em;
+}
